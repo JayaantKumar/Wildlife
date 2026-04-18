@@ -1,0 +1,26 @@
+/* src/index.css */
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #000;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  color-scheme: dark;
+}
+
+/* Hide scrollbar for a cinematic, premium feel but retain scroll functionality */
+::-webkit-scrollbar {
+  display: none;
+}
