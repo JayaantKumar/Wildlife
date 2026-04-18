@@ -6,6 +6,7 @@ export default function Sidebar({ isMobileMenuOpen, setIsMobileMenuOpen }) {
     { name: 'Home', path: '/' },
     { name: 'Gallery', path: '/gallery' },
     { name: 'Projects', path: '/projects' },
+    { name: 'Safaris', path: '/safaris' },
     { name: 'About', path: '/about' },
     { name: 'Contact', path: '/contact' }
   ];

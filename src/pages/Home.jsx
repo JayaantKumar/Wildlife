@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import PageTransition from '../components/PageTransition';
+import SubscribeSection from '../components/SubscribeSection';
 
 const slides = [
   "https://images.unsplash.com/photo-1546182990-dffeafbe841d?q=80&w=2500",
@@ -134,6 +135,7 @@ export default function Home() {
           </div>
         ))}
       </section>
+      <SubscribeSection />
     </PageTransition>
   );
 }

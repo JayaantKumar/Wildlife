@@ -11,6 +11,8 @@ import ProjectDetail from './pages/ProjectDetail';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Footer from './components/Footer'; // <-- Import the new footer
+import Safaris from './pages/Safaris';
+import SafariDetail from './pages/SafariDetail';
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -22,6 +24,8 @@ function AnimatedRoutes() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects/:id" element={<ProjectDetail />} />
+        <Route path="/safaris" element={<Safaris />} /> {/* <-- Listing Route */}
+        <Route path="/safaris/:id" element={<SafariDetail />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
