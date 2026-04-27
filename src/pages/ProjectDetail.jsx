@@ -53,7 +53,7 @@ export default function ProjectDetail() {
               <div key={i} className="w-full overflow-hidden">
                 <img 
                   src={url} 
-                  className="w-full h-auto object-cover grayscale hover:grayscale-0 transition-all duration-1000" 
+                  className="w-full h-auto object-cover" 
                   alt={`${project.title} detailed shot ${i + 1}`} 
                 />
               </div>

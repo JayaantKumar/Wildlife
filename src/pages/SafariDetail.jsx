@@ -22,7 +22,7 @@ export default function SafariDetail() {
         
         {/* Detail Hero Image */}
         <div className="w-full h-[50vh] md:h-[70vh]">
-          <img src={safari.coverUrl} alt={safari.title} className="w-full h-full object-cover grayscale" />
+          <img src={safari.coverUrl} alt={safari.title} className="w-full h-full object-cover " />
         </div>
 
         {/* Content Container */}

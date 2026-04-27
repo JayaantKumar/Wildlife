@@ -13,7 +13,7 @@ export default function Safaris() {
           <img 
             src="https://images.unsplash.com/photo-1516426122078-c23e76319801?q=80&w=2500" 
             alt="Safari Vehicle" 
-            className="w-full h-full object-cover grayscale"
+            className="w-full h-full object-cover "
           />
           <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
             <h1 className="text-4xl md:text-6xl font-serif text-white tracking-wide text-center px-4 drop-shadow-lg">
@@ -70,7 +70,7 @@ export default function Safaris() {
                   <img 
                     src={safari.coverUrl} 
                     alt={safari.title} 
-                    className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 hover:scale-105"
+                    className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                   />
                 </Link>
                 <h3 className="text-2xl font-serif text-gray-900 mb-2">{safari.title}</h3>
